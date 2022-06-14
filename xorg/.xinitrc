@@ -35,5 +35,8 @@ fi
 # launch input method
 fcitx5 &
 
+# hide cursor
+unclutter --timeout 0.5 &
+
 # launch wm
 exec xmonad
