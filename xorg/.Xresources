@@ -1,5 +1,6 @@
 *font: xft:sourceCodePro:size=16,\
-    xft:SauceCodePro Nerd Font Mono:size=16
+    xft:SauceCodePro Nerd Font Mono:size=16,\
+    xft:Source Han Sans:size=16
 
 ! Colors
 *background: #1E1E2E
