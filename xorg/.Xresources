@@ -3,7 +3,7 @@
     xft:Source Han Sans:size=16
 
 ! Colors
-*background: #1E1E2E
+*background: #11111b
 *foreground: #D9E0EE
 ! Gray
 *color0: #6E6C7E

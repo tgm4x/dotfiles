@@ -16,9 +16,9 @@ vim.cmd([[
 let g:netrw_winsize = 20
 let g:netrw_banner = 0
 let g:netrw_liststyle = 3
-
-syntax enable
 colorscheme catppuccin
+
+autocmd FileType * setlocal formatoptions-=cro
 
 augroup vimrc-incsearch-highlight
 autocmd!

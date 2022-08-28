@@ -10,9 +10,14 @@ return require('packer').startup(function()
 	requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'lewis6991/gitsigns.nvim'
-    use 'max-0406/autoclose.nvim'
-    use({
-	"iamcco/markdown-preview.nvim",
-	run = function() vim.fn["mkdp#util#install"]() end,
-    })
+    use 'm4xshen/autoclose.nvim'
+    use {
+	'nvim-treesitter/nvim-treesitter',
+	run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
+    }
+    use {
+	'williamboman/nvim-lsp-installer',
+	'neovim/nvim-lspconfig',
+    }
+    use 'hrsh7th/nvim-cmp'
 end)

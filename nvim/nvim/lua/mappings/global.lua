@@ -1,9 +1,6 @@
 local map = vim.api.nvim_set_keymap
 vim.g.mapleader = " "
 
--- input switcher
-map("i", "<ESC>", "<ESC>:silent !fcitx5-remote -s keyboard-us<CR>", {noremap = true, silent = true})
-
 -- leader movements
 map("n", "<Leader>w", ":w<CR>", {noremap = true})
 map("n", "<Leader>s", ":luafile %<CR>", {noremap = true})
